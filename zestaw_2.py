@@ -1,4 +1,4 @@
-# Xadanie 2.9
+# zadanie 2.9
 
 # def copy_file(inputfile_name, outputfile_name):
 #         input = open(inputfile_name, "r")
