@@ -37,6 +37,7 @@ for i in range(30):
 
 
 # Zadanie 4
+print("\tZadanie 4")
 while True:
     x = input("x: ")
     if(x == "stop"):
