@@ -1,7 +1,23 @@
 # Zadanie 1 
-# 1. ok
-# 2. po dwukropku i spacja(o jedną wiecej niż w linijce z warunkiem
-# 3. po warunku if i else - dwukropek, po dwukropkach nowa linia + tabulacja.
+# 1. średników się nie używa, jeden z poprawnych sposobów
+# x, y = 2, 3
+# if (x > y):
+#     result = x
+# else:
+#     result = y
+
+# 2. po dwukropku nowa linia i tabulacja 
+# for i in "qwerty": 
+#     if ord(i) < 100: 
+#         print (i)
+
+# 3. dwukropki, tabulacje + akcja po warunku, a nie przed
+# for i in "axby": 
+#     if ord(i) < 100:
+#         print ord(i) 
+#     else:
+#         i
+
 
 # Zadanie 2
 # 1. metoda sort() nie zwraca nic, funkcja sort() modykifuje obiekt, 
