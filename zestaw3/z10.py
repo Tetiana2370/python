@@ -1,6 +1,6 @@
 DICTIONARY = {"I": 1, "V" : 5, "X":10, "C": 100, "D": 500, "M": 1000}
 
-def checkRoman(number):
+def check_roman(number):
     S = dict()
     prev = ""
     for i in list(number):
@@ -17,7 +17,7 @@ def roman2int(number):
     count = 1
     sum = 0
     prev = 0
-    if checkRoman(number) == False:
+    if check_roman(number) == False:
         print("FormatError in roman number: ", end=" ")
         return -1
     for i in list(number):
