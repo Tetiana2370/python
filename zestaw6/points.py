@@ -16,12 +16,9 @@ class Point:
 		return str("Point(%.2f, %.2f)" % (self.x, self.y))
 
     def __eq__(self, other): # obsługa point1 == point2
-		if str(self) == str(other):
-			return True;
-		elif isinstance(other, Point):
-			if(self.x == other.x):
-				return self.y == self.x
-		return False
+	if(self.x == other.x):
+		return self.y == other.y
+	return False
 
     def __ne__(self, other):        # obsługa point1 != point2
         return not self == other
