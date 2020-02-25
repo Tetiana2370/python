@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Author: Tetiana Kravchuk
 # @Date:   2020-02-17 20:15:24
-# from game import * 
 
 from game import *
 from PyQt5 import QtGui
